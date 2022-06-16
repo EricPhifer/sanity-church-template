@@ -13,7 +13,7 @@ export default {
       },
       { 
         name: 'mainlogo', 
-        title: 'Logo with Alt Text', 
+        title: 'Logo', 
         type: 'image',
         options: {
           hotspot: true
@@ -24,15 +24,21 @@ export default {
         title: 'Alternative text for Main Image', 
         type: 'string' 
       },
-      {
-        name: 'pagename',
-        title: 'Name of Page',
-        type: 'string',
+      { 
+        name: 'mobilebg', 
+        title: 'Background for Mobile Navigation', 
+        type: 'image',
+        options: {
+          hotspot: true
+        }
       },
       {
-        name: 'pagelink',
-        title: 'Link to Page',
-        type: 'string',
-      },
+        name: 'links',
+        title: 'Links to Pages',
+        type: 'array',
+        of: [
+          {type: 'PageLinks'}
+        ],
+      }
     ],
   }

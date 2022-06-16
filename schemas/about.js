@@ -20,7 +20,7 @@ export default {
             }
         },
         { 
-            name: 'imgAlt', 
+            name: 'imgalt', 
             title: 'Alternative text for Image', 
             type: 'string' 
         },
@@ -33,17 +33,14 @@ export default {
                     type: 'block',
                 },
             ]
-
         },
         { 
-            name: 'navTitle', 
-            title: 'Title for Navigation Link', 
-            type: 'string' 
-        },
-        { 
-            name: 'navLink', 
-            title: 'Link for About Page Navigation', 
-            type: 'string' 
+            name: 'aboutnav', 
+            title: 'About Page Navigation', 
+            type: 'array', 
+            of: [
+                { type: 'PageLinks' }
+            ]
         },
     ],
   }

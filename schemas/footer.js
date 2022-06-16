@@ -16,5 +16,10 @@ export default {
           title: 'Design & Development Credit', 
           type: 'string' 
         },
+        {
+          name: 'devlink', 
+          title: 'URL for Developer', 
+          type: 'url' 
+        },
     ],
   }

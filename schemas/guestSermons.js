@@ -1,8 +1,8 @@
 import { GrContact as icon } from 'react-icons/gr';
 
 export default {
-    name: 'sermons',
-    title: 'Sermons',
+    name: 'guestsermons',
+    title: 'Guest Sermons',
     type: 'document',
     icon,
     fields: [

@@ -21,7 +21,7 @@ export default {
       },
       { 
         name: 'eventalt', 
-        title: 'Alternative text for Profile Image', 
+        title: 'Alternative text for Event Image', 
         type: 'string' 
       },
       { 

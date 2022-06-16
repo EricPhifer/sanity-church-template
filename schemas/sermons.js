@@ -21,12 +21,12 @@ export default {
       },
       { 
         name: 'video', 
-        title: 'Video of Guest Sermon', 
+        title: 'Video of Sermon', 
         type: 'array',
         of: [
           {
             name: 'guestsermon',
-            title: 'Video of Guest Sermon',
+            title: 'Video of Sermon',
             type: 'mux.video'
           }
         ]

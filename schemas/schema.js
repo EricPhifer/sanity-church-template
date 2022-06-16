@@ -21,7 +21,7 @@ import guestSermons from './guestSermons';
 import privacyPolicy from './privacyPolicy';
 import termsConditions from './termsConditions';
 // Components
-import PlanContent from '../components/PlanContent';
+import PageLinks from '../components/PageLinks';
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -49,6 +49,6 @@ export default createSchema({
     privacyPolicy,
     termsConditions,
     // Components
-    PlanContent,
+    PageLinks,
   ]),
 })
