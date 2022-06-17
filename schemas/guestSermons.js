@@ -24,11 +24,7 @@ export default {
         title: 'Video of Guest Sermon', 
         type: 'array',
         of: [
-          {
-            name: 'guestsermon',
-            title: 'Video of Guest Sermon',
-            type: 'mux.video'
-          }
+          { type: 'Videos' }
         ]
       },
     ],

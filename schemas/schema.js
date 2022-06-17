@@ -22,6 +22,7 @@ import privacyPolicy from './privacyPolicy';
 import termsConditions from './termsConditions';
 // Components
 import PageLinks from '../components/PageLinks';
+import Videos from '../components/Videos';
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -50,5 +51,6 @@ export default createSchema({
     termsConditions,
     // Components
     PageLinks,
+    Videos,
   ]),
 })

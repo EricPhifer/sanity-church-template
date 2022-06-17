@@ -28,19 +28,13 @@ export default {
             name: 'content', 
             title: 'Content', 
             type: 'array',
-            of: [
-                {
-                    type: 'block',
-                },
-            ]
+            of: [ { type: 'block' } ]
         },
         { 
             name: 'aboutnav', 
             title: 'About Page Navigation', 
             type: 'array', 
-            of: [
-                { type: 'PageLinks' }
-            ]
+            of: [ { type: 'PageLinks' } ]
         },
     ],
   }
